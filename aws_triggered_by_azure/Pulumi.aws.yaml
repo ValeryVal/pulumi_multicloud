@@ -1,0 +1,6 @@
+config:
+  aws-native:provider: aws
+  aws:region: us-east-2
+  apigateway:region: us-east-2
+  aws_azure_connection:provider: aws
+  aws_azure_connection:organization_name: my_organization_name

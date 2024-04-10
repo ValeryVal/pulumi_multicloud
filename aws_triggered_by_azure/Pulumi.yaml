@@ -1,0 +1,6 @@
+name: aws_azure_connection
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Connect AWS Lambda with Azure Blob Storage trigger

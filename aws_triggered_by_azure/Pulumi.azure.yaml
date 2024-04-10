@@ -1,0 +1,4 @@
+config:
+  aws-native:location: westeurope
+  aws-native:provider: azure
+  aws_azure_connection:provider: azure
