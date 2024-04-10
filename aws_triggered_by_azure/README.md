@@ -4,6 +4,20 @@ For this project you should have installed [Pulumi](https://www.pulumi.com/docs/
 [AWS CLI and credentials](https://www.pulumi.com/registry/packages/aws/installation-configuration/#credentials), 
 [Azure CLI or another option to authenticate](https://www.pulumi.com/registry/packages/azure-native/installation-configuration/#authentication-methods)
 
+Create a new stack:
+```
+pulumi stack init aws
+```
+and
+```
+pulumi stack init azure
+```
+
+install requirements
+```
+pip install -r .\requirements.txt
+```
+
 Then you can implement using all infrastructure if this project:
 ```
 pulumi up
@@ -26,7 +40,7 @@ and then switch to azure stack and deploy it.
 You also need to change value of aws_azure_connection:organization_name: in Pulumi.aws.yaml.
 
 
-### Description of this project
+### Description of The Project
 
 This infrastructure is used for triggering AWS Lambda 
 with restAPI webhook that is triggerred by uploading 

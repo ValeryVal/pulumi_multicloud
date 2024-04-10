@@ -1,0 +1,9 @@
+config:
+  aws:region: eu-central-1
+  azure_triggered_by_aws:provider: aws
+  azure_triggered_by_aws:project_name: azure_triggered_by_aws
+  azure_triggered_by_aws:organization_name: my_organization
+  azure_triggered_by_aws:region: eu-central-1
+  azure_triggered_by_aws:account_id: 00000000000
+  azure_triggered_by_aws:azure_function_url: azure_function_url
+

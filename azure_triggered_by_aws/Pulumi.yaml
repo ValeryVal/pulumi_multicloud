@@ -1,0 +1,7 @@
+name: azure_triggered_by_aws
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: An Azure Function triggered by AWS S3 Pulumi program
+

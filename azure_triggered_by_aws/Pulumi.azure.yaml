@@ -1,0 +1,3 @@
+config:
+  azure-native:location: East US
+  azure_triggered_by_aws:provider: azure

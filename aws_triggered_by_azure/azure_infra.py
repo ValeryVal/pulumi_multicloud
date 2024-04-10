@@ -5,7 +5,9 @@ import pulumi_azure as azure
 
 config = pulumi.Config()
 organization_name = config.require('organization_name')
-from_aws_stack = StackReference(f"{organization_name}/aws_azure_connection/aws")
+project_name = config.require('project_name')
+provider = config.require('provider')
+from_aws_stack = StackReference(f"{organization_name}/{project_name}/aws")
 webhook_url = from_aws_stack.get_output("restAPI url")
 
 resource_group = azure.core.ResourceGroup("resource_group",
